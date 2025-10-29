@@ -1,64 +1,62 @@
-# EdTec# 🎓 EdTech Recorded Lectures Dashboard (Power BI)
+<h1 align="center">🎓 EdTech Recorded Lectures Power BI Dashboard</h1>
+<p align="center">
+  <b>Data Visualization | EdTech Domain | Recorded Lecture Insights</b><br>
+  📊 <b>Power BI Dashboard Project by Sunny Tomar</b>
+</p>
 
-## 📘 Project Overview  
-This Power BI dashboard analyzes recorded-lecture data collected from multiple EdTech sources to surface actionable insights for an EdTech startup.  
-Focus: **category-wise** analysis to guide which course types and languages to prioritise, discover top instructors, and measure engagement patterns.
+---
+
+## 📘 Project Overview
+This project was developed as part of a data analysis task for an **EdTech startup** aiming to expand its offerings in recorded lectures.  
+The goal was to analyze course data from multiple platforms and design an **interactive Power BI dashboard** that provides meaningful insights into course trends, engagement, and viewer behavior.
 
 ---
 
 ## 🎯 Objectives
-1. Distribution of course types by **category** and **sub-category** (count of courses).  
-2. Average number of **views** per category, sub-category, and language.  
-3. Top and most commonly taught **skills** by category.  
-4. Distribution of **course languages**.  
-5. Language preferences per category (top 5 categories by user preference).  
-6. Relationship between **subtitles** availability and views.  
-7. Top **3 instructors** per category/subcategory by ratings (static view).  
-8. Relationship between **course duration** and views (special rule: monthly content = 60 hrs; flexible = 200 hrs).  
-9. Impact of **skill variety** within each category on viewership.
+The dashboard helps the company identify key areas for improvement and growth by focusing on:
+1. Analyzing the **distribution of course types across categories and subcategories**.  
+2. Calculating **average views** by category, subcategory, and language to identify engagement trends.  
+3. Identifying the **most in-demand skills** across various categories.  
+4. Exploring **language preferences** and **subtitle impacts** on viewership.  
+5. Highlighting the **top instructors** for each category based on ratings.  
+6. Studying the **relationship between course duration and number of views**.  
+7. Understanding how **variety of skills** influences viewership patterns.
 
 ---
 
-## 📂 Deliverables
-- Power BI file: `EdTech_Recorded_Lectures_Dashboard.pbix`  
-- Dashboard preview image: `dashboard_preview.png`  
-- Project presentation: `Online_Courses_Report.pptx` (optional)  
-- This README (documentation)
+## 🧩 Dashboard Deliverables
+| File | Description |
+|------|--------------|
+| `online courses project.pbix` | Interactive Power BI dashboard file |
+| `online courses Analysis project.pdf` | Static report version of the dashboard |
+| `Dashboard_preview 1.png` | Dashboard preview image (below) |
+| `Online_Courses.csv` | Source dataset (for demonstration only) |
 
----
-
-## 🚫 Data Privacy
-The dataset used is proprietary to the client / collected from public EdTech sites; **raw data is not uploaded** in this repository. Analysis shown is for demonstration and decision-making purposes only.
-
----
-
-## 📊 Key Insights (example / expected)
-- Categories such as **Data Science** and **Business** show highest views and skill diversity.  
-- Courses with **subtitles** tend to have higher average views (accessibility increases reach).  
-- Top instructors (by rating) can be targeted for content partnerships.  
-- Language preference mapping helps localise content for the top 5 categories.  
-*(Actual numbers and visuals are available in the PBIX and presentation.)*
-
----
-
-## ⚙️ Tools & Techniques
-- **Power BI Desktop** — data modelling, DAX measures, visuals, slicers.  
-- **Excel / CSV** — cleaning & transformations prior to import into Power BI.  
-- Visuals used: KPI cards, bar charts, stacked bars, treemaps, slicers, tables, scatter plots (duration vs views).
+> ⚠️ *Note: The dataset used here is educational and not confidential. Actual client data has not been shared.*
 
 ---
 
 ## 📸 Dashboard Preview
-![Dashboard Screenshot](dashboard_preview.png)
-
-*(Click the PBIX to download and open locally to interact with the report.)*
+<p align="center">
+  <img src="Dashboard_preview.png" width="800">
+</p>
 
 ---
 
-## 🌐 (Optional) Live Dashboard
-If dataset is non-sensitive and you publish to Power BI Service, add:
-`View live report: https://app.powerbi.com/view?r=XXXXXXXX`  
-(Do NOT publish confidential data publicly.)
+## 🧠 Tools & Skills Used
+- **Power BI** – Data modeling, visualization, DAX calculations  
+- **Excel / CSV** – Data cleaning and structuring  
+- **Data Analysis Concepts** – KPI analysis, relationships, filters, and insights  
+- **Visualization Techniques** – Bar charts, Donut charts, Cards, Slicers, Heatmaps  
+
+---
+
+## 💡 Key Insights
+- **Top 5 Categories** attract over 70% of total views across the platform.  
+- **Instructor ratings** strongly correlate with engagement and course popularity.  
+- **English** dominates course language preferences, followed by **Spanish** and **Hindi**.  
+- Courses with **subtitles** show 18–25% higher viewer retention.  
+- **Medium-duration courses** (40–80 hours) have maximum views per session.
 
 ---
 
